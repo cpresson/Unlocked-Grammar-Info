@@ -5,20 +5,30 @@ Conventions
 Examples
 --------
 
-When we provide examples in an article we need to format them as a table below the reference containing the source text, the transliteration, the interlinear and the translation.  See the following example:
+When we provide examples in an article we need to use the format below.  Put the reference on its own line and then use a table that shows these four components:
 
-GEN 47:18
+* the source text (Greek, Hebrew, or Aramaic)
+* the SBL style transliteration
+* the literal/interlinear translation
+* the smooth translation
+
+See the following example:
+
+Scripture Reference
 
 +----------------------+
-|בשנה השנית            |
+|Hebrew/Greek/Aramaic  |
 +----------------------+
 |transliteration       |
 +----------------------+
-|in the year the second|
+|literal translation   |
 +----------------------+
-|in the second year    |
+|smooth translation    |
 +----------------------+
 
+See the `Open Siddur transliteration page <http://opensiddur.org/tools/transliterate/>`_ for help with Hebrew transliterations.  You may also find the http://transliterate.com/ site helpful for both Hebrew and Greek translations.
+
+Where possible, use the ULB for the smooth translation field.
 
 Spelling
 --------
@@ -30,7 +40,7 @@ Spelling
 Structural
 ----------
 
-* No need to duplicate the glossary entry in the article entry
+* Do not duplicate the glossary entry in the article entry
 * For the UHG and UAG, paradigms/charts should go in a folder named after what the chart displays.  For example, a chart of the demonstrative pronouns could go in `content/chart_demonstrative_pronouns/01.md`. For the UGG, at least initially, paradigms/charts will be placed in the content/paradigms folder with the name of the paradigm/chart that is displayed.
 
 Typographical
@@ -47,9 +57,9 @@ Encoding
 * If you are writing locally then you **must ensure that you are using unicode**.
 * The font doesn't matter at this point as display will be taken care of in the rendered output formats (PDF, translationCore, etc.).
 
-Book Abbreviations
-------------------
+Bible References
+----------------
 
-* Since we are writing especially for translators, we'll use the [USFM book codes](http://ubsicap.github.io/usfm/identification/books.html) for references.
+Since we are writing especially for translators, we'll use the `USFM book codes <http://ubsicap.github.io/usfm/identification/books.html>`_ for references.  As an example, use "GEN 3:10" as the reference for Genesis 3:10.
 
-
+Use the standard English versification system (which is from the KJV) for referring to Scripture.  If there is a variance with the original language versification system, provide that reference in parenthensis.  For example, "MIC 5:1 (MIC 4:14 in Hebrew)".

@@ -1,7 +1,7 @@
 Using Markdown
 ==============
 
-Markdown is the format in which content on the Gogs Unlocked Grammar projects repository sites is created. The repo sites include a built-in Markdown editor so that in-depth knowledge of the format is typically not necessary. However, there are a few exceptions when knowledge of Markdown format is helpful or necessary.
+Markdown is the text formatting that the Unlocked Grammar projects use. The project sites include a built-in Markdown editor and previewer so that in-depth knowledge of the format is typically not necessary. However, there are a few exceptions when knowledge of Markdown format is helpful or necessary.
 
 Line Breaks
 -----------
@@ -50,3 +50,9 @@ To use the `HTML table generator <http://www.tablesgenerator.com/html_tables#>`_
 7. Preview the file to make sure formatting is correct.
 8. If the chart or paradigm is complete, click the **Commit Changes** button to save the file changes to your fork.
 
+Linking
+-------
+
+For links to other sections within the same page, use an internal # link.  For instance, to link to the section on "Form", you can add a link like this [see Form](#form).
+
+For links to other pages, you may use the full URL, like this, [see Adjective Article](https://git.door43.org/Door43/en-uhg/src/master/content/adjective/02.md).
